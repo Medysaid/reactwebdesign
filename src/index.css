@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.hightNumber{
+  height: 609px ;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
