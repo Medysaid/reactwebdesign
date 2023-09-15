@@ -1,62 +1,85 @@
-  .headerNav{
-    width: 100%; /* Make the headerNav extend the full width of the page */
-    margin-top: 0;
-    height: 979px;
-    background-color:#ECF9FF ;
+  .headerNav {
+
+      height: 979px;
+
   }
-  
+
   /* Base styles for the navigation bar */
-  .headerNav .navbar{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    margin: 0;
+  .headerNav .navbar {
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      margin: 0;
       /* Add some padding for better readability */
-}
- .navbar1{
-    background-color: #FFFFFF; /* Background color for the navbar */
-    color: white; /* Text color */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    margin: 50px  100px  0px 100px;
-     /* Add some padding for better readability */
-}
-.hight{
-    height: 609px ;
-}
-/* Default margin settings */
+  }
+
+  .img-data {
+      background-image: url("../../assets/firstpic.png");
+      background-repeat: no-repeat;
+  }
+
+  .container {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: -5px;
+      margin-top: -10px;
+      /* Add other styling for the container as needed */
+  }
+
+  .navbar1 {
+      background-color: #FFFFFF;
+      /* Background color for the navbar */
+      color: white;
+      /* Text color */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+      margin: 50px 100px 0px 100px;
+      /* Add some padding for better readability */
+  }
+
+  .hight {
+      height: 609px;
+  }
+
+  /* Default margin settings */
 
 
-.navbar1 ul {
-    display: flex;
-    /* position:relative; */
-    list-style: none;
-    margin-top: 50px;
-}
-.navbar1 ul li{
-    margin: 0px 2px 0px 2px;
-}
-.navbar1 .left-label {
-    color: black;
-}
-.navbar1 .left-label .highlight-letter h2 span{
-    color: red;
-}
+  .navbar1 ul {
+      display: flex;
+      /* position:relative; */
+      list-style: none;
+      margin-top: 50px;
+  }
 
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-    /* Reduce the margins for smaller screens */
-    .navbar1 {
-        margin: 10px 20px; /* Top 10px, Left and Right 20px */
-    }
-}
+  .navbar1 ul li {
+      margin: 0px 2px 0px 2px;
+  }
 
-/* Style for the button container on the right */
-.button-container {
-    display: flex;
-    gap: 10px; /* Add spacing between buttons */
-}
+  .navbar1 .left-label {
+      color: black;
+  }
+
+  .navbar1 .left-label .highlight-letter h2 span {
+      color: red;
+  }
+
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+
+      /* Reduce the margins for smaller screens */
+      .navbar1 {
+          margin: 10px 20px;
+          /* Top 10px, Left and Right 20px */
+      }
+  }
+
+  /* Style for the button container on the right */
+  .button-container {
+      display: flex;
+      gap: 10px;
+      /* Add spacing between buttons */
+  }
